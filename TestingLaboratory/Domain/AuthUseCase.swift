@@ -16,12 +16,12 @@ enum AuthError: Error {
   case unknown
 }
 
-protocol LoginUseCase {
+protocol AuthUseCase {
     func signUp(id: String, pw: String) async throws
     func signIn(id: String, pw: String) async throws
 }
 
-struct DefaultLoginUseCase: LoginUseCase {
+struct DefaultAuthUseCase: AuthUseCase {
 
     let repository: AuthRepository
     
