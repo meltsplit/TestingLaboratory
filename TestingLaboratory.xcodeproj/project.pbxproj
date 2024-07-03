@@ -13,7 +13,6 @@
 		878E170C2C29E73F007C49F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878E170A2C29E73F007C49F8 /* Main.storyboard */; };
 		878E170E2C29E741007C49F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878E170D2C29E741007C49F8 /* Assets.xcassets */; };
 		878E17112C29E741007C49F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878E170F2C29E741007C49F8 /* LaunchScreen.storyboard */; };
-		878E171C2C29E741007C49F8 /* TestingLaboratoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E171B2C29E741007C49F8 /* TestingLaboratoryTests.swift */; };
 		878E17262C29E741007C49F8 /* TestingLaboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E17252C29E741007C49F8 /* TestingLaboratoryUITests.swift */; };
 		878E17282C29E741007C49F8 /* TestingLaboratoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E17272C29E741007C49F8 /* TestingLaboratoryUITestsLaunchTests.swift */; };
 		87B54B0E2C2C4DA300499BF6 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B54B0D2C2C4DA300499BF6 /* AuthRepository.swift */; };
@@ -25,6 +24,8 @@
 		87FDCA7E2C2DE8F5007632B4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDCA7D2C2DE8F5007632B4 /* Utils.swift */; };
 		87FDCA802C31C6C9007632B4 /* AuthUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDCA7F2C31C6C9007632B4 /* AuthUseCaseTests.swift */; };
 		87FDCA832C31D1EF007632B4 /* AuthRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDCA822C31D1EF007632B4 /* AuthRepositoryStub.swift */; };
+		87FDCA8F2C356562007632B4 /* AuthRemoteServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDCA8E2C356562007632B4 /* AuthRemoteServiceStub.swift */; };
+		87FDCA912C356586007632B4 /* AuthRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDCA902C356586007632B4 /* AuthRepositoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,6 @@
 		878E17102C29E741007C49F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		878E17122C29E741007C49F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878E17172C29E741007C49F8 /* TestingLaboratoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingLaboratoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		878E171B2C29E741007C49F8 /* TestingLaboratoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLaboratoryTests.swift; sourceTree = "<group>"; };
 		878E17212C29E741007C49F8 /* TestingLaboratoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingLaboratoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878E17252C29E741007C49F8 /* TestingLaboratoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLaboratoryUITests.swift; sourceTree = "<group>"; };
 		878E17272C29E741007C49F8 /* TestingLaboratoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLaboratoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -67,6 +67,8 @@
 		87FDCA7D2C2DE8F5007632B4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		87FDCA7F2C31C6C9007632B4 /* AuthUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUseCaseTests.swift; sourceTree = "<group>"; };
 		87FDCA822C31D1EF007632B4 /* AuthRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryStub.swift; sourceTree = "<group>"; };
+		87FDCA8E2C356562007632B4 /* AuthRemoteServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteServiceStub.swift; sourceTree = "<group>"; };
+		87FDCA902C356586007632B4 /* AuthRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				87FDCA812C31D096007632B4 /* TestDouble */,
-				878E171B2C29E741007C49F8 /* TestingLaboratoryTests.swift */,
 				87FDCA7F2C31C6C9007632B4 /* AuthUseCaseTests.swift */,
+				87FDCA902C356586007632B4 /* AuthRepositoryTests.swift */,
 			);
 			path = TestingLaboratoryTests;
 			sourceTree = "<group>";
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				87FDCA822C31D1EF007632B4 /* AuthRepositoryStub.swift */,
+				87FDCA8E2C356562007632B4 /* AuthRemoteServiceStub.swift */,
 			);
 			path = TestDouble;
 			sourceTree = "<group>";
@@ -374,9 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878E171C2C29E741007C49F8 /* TestingLaboratoryTests.swift in Sources */,
+				87FDCA8F2C356562007632B4 /* AuthRemoteServiceStub.swift in Sources */,
 				87FDCA802C31C6C9007632B4 /* AuthUseCaseTests.swift in Sources */,
 				87FDCA832C31D1EF007632B4 /* AuthRepositoryStub.swift in Sources */,
+				87FDCA912C356586007632B4 /* AuthRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

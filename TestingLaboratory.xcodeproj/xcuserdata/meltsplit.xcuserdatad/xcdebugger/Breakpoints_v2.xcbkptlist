@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A0F656D-0F12-4987-B1A7-749F6B3AA90E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D2A368A-92CD-4A4C-8BB2-F7F42FE68D99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratoryTests/AuthUseCaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "test_signIn_&#xb808;&#xd3ec;&#xc9c0;&#xd1a0;&#xb9ac;&#xc5d0;&#xc11c;_&#xbc1c;&#xc0dd;&#xd55c;_&#xc624;&#xb958;&#xb97c;_&#xc798;_&#xc7a1;&#xc544;&#xb0b4;&#xb098;&#xc694;()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
