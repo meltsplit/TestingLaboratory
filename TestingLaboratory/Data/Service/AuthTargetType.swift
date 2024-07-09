@@ -7,12 +7,12 @@
 
 import Foundation
 
-enum AuthEndpoint: EndPointType {
+enum AuthTargetType: TargetType {
     case signIn(_ request: SignInRequest)
     case signUp(_ request: SignUpRequest)
 }
 
-extension AuthEndpoint {
+extension AuthTargetType {
     
     var path: String {
         switch self {

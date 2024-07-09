@@ -14,9 +14,9 @@ protocol AuthRepository {
 
 struct DefaultAuthRepository: AuthRepository {
   
-  let remoteService: RemoteAuthService
+  let remoteService: AuthRemoteService
   
-  init(remoteService: RemoteAuthService) {
+  init(remoteService: AuthRemoteService) {
     self.remoteService = remoteService
   }
   
