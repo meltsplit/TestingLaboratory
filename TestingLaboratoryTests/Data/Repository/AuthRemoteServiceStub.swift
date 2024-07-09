@@ -9,11 +9,10 @@ import Foundation
 
 @testable import TestingLaboratory
 
-class AuthRemoteServiceStub: RemoteAuthService {
+class AuthRemoteServiceStub: AuthRemoteService {
     
     var signUpResponse: SignUpResponse?
     var signUpError: Error?
-    
     
     var signInResponse: SignInResponse?
     var signInError: Error?

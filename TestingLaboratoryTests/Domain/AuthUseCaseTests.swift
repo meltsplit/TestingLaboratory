@@ -51,7 +51,7 @@ extension AuthUseCaseTests {
                 _ = try await sut.signIn(id: id, pw: pw)
                 
                 XCTFail("\(id) 이메일 유효하지 않은데 성공으로 뜬 오류")
-            } catch AuthError.invalidEmail {
+            } catch AuthDomainError.invalidEmail {
                 //여기에 들어갈 적합한 코드
                 XCTAssertTrue(true)
             } catch  {
@@ -84,7 +84,7 @@ extension AuthUseCaseTests {
                 _ = try await sut.signIn(id: id, pw: pw)
                 
                 XCTFail("비밀번호 유효하지 않은데 성공으로 뜬 오류")
-            } catch AuthError.invalidPassword {
+            } catch AuthDomainError.invalidPassword {
                 XCTAssertTrue(true)
             } catch  {
                 XCTFail("유효하지 않은 이메일에 AuthError가 아닌 다른 에러가 방출된 경우")
@@ -105,7 +105,7 @@ extension AuthUseCaseTests {
         do {
             _ = try await sut.signIn(id: id, pw: pw)
             XCTFail("레포지토리에서 에러를 발생시켰는데 유즈케이스가 에러를 받지 못함")
-        } catch  _ as AuthError {
+        } catch  _ as AuthDomainError {
             XCTFail("레포지토리에서 Auth 외의 에러를 발생시켰는데 AuthError로 분류됨")
         } catch {
             //Then

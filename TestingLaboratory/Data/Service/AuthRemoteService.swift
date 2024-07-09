@@ -1,5 +1,5 @@
 //
-//  RemoteAuthService.swift
+//  AuthRemoteService.swift
 //  TestingLaboratory
 //
 //  Created by 장석우 on 6/27/24.
@@ -27,17 +27,24 @@ class DefaultAuthRemoteService: AuthRemoteService {
                 dto: SignUpResponse.self
             )
         } catch {
-            if error is AuthError { throw AuthError.notAuthorized }
-            throw AuthError.unknown
+            guard let error = error as? ProviderError
+            else { throw ServiceError.unknown }
+            throw error.toService()
         }
-        
     }
     
     func signIn(_ request: SignInRequest) async throws -> SignInResponse {
-        try await provider.request(
-            .signIn(request),
-            dto: SignInResponse.self
-        )
+        do {
+            return try await provider.request(
+                .signIn(request),
+                dto: SignInResponse.self
+            )
+        } catch {
+            guard let error = error as? ProviderError
+            else { throw ServiceError.unknown }
+            throw error.toService()
+        }
+        
     }
     
 }

@@ -7,15 +7,6 @@
 
 import Foundation
 
-enum AuthError: Error {
-  case alreadyExistEmail
-  case invalidEmail
-  case invalidPassword
-  case userNotFound
-  case notAuthorized
-  case unknown
-}
-
 protocol AuthUseCase {
     func signUp(id: String, pw: String) async throws
     func signIn(id: String, pw: String) async throws
@@ -30,16 +21,16 @@ struct DefaultAuthUseCase: AuthUseCase {
     }
     
     func signUp(id: String, pw: String) async throws {
-      guard Regex.email.validate(id) else { throw AuthError.invalidEmail }
-      guard Regex.password.validate(pw) else { throw AuthError.invalidPassword }
+      guard Regex.email.validate(id) else { throw AuthDomainError.invalidEmail }
+      guard Regex.password.validate(pw) else { throw AuthDomainError.invalidPassword }
       return try await repository.signUp(id: id, pw: pw)
     }
   
   
     
     func signIn(id: String, pw: String) async throws {
-      guard Regex.email.validate(id) else { throw AuthError.invalidEmail }
-      guard Regex.password.validate(pw) else { throw AuthError.invalidPassword }
+      guard Regex.email.validate(id) else { throw AuthDomainError.invalidEmail }
+      guard Regex.password.validate(pw) else { throw AuthDomainError.invalidPassword }
       return try await repository.signIn(id: id, pw: pw)
     }
 }

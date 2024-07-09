@@ -20,5 +20,258 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C7022DB-E22B-41AC-90BB-0AD400CB9C7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratoryTests/Data/Service/AuthRemoteServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "test_&#xd68c;&#xc6d0;&#xac00;&#xc785;&#xc2dc;_Provider&#xc624;&#xb958;&#xb97c;_Service&#xc624;&#xb958;&#xb85c;_&#xc798;_&#xbcc0;&#xd658;&#xd558;&#xb294;&#xac00;()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "676B8786-92B8-49F4-8630-A11757E10229"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratory/Core/Provider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "request(_:dto:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "676B8786-92B8-49F4-8630-A11757E10229 - c19e7b3189510984"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TestingLaboratory.Provider.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_0_0, dto: &#x3c4;_1_0.Type) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/Core/Provider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "3664">
+               </Location>
+               <Location
+                  uuid = "676B8786-92B8-49F4-8630-A11757E10229 - c19e7b3189510a18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TestingLaboratory.Provider.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_0_0, dto: &#x3c4;_1_0.Type) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/Core/Provider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "3664">
+               </Location>
+               <Location
+                  uuid = "676B8786-92B8-49F4-8630-A11757E10229 - c19e7b3189510afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TestingLaboratory.Provider.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_0_0, dto: &#x3c4;_1_0.Type) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/Core/Provider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "3664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A576FAC7-8CC2-44FD-AD3B-0684A47C46C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratory/App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A576FAC7-8CC2-44FD-AD3B-0684A47C46C4 - c7e96e37a40c60ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "A576FAC7-8CC2-44FD-AD3B-0684A47C46C4 - 1d1efd50b2fa2ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "343C55BE-309B-4475-9A0B-CCF475615E29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratory/App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "343C55BE-309B-4475-9A0B-CCF475615E29 - 7d79b175f1ef07bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "343C55BE-309B-4475-9A0B-CCF475615E29 - fa7001b4ad8bfb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "343C55BE-309B-4475-9A0B-CCF475615E29 - c7e96e37a40c63a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "343C55BE-309B-4475-9A0B-CCF475615E29 - 1d1efd50b2fa2d9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4287DBDB-002B-4EEB-AFA9-B74B6EBE36D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingLaboratory/App/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4287DBDB-002B-4EEB-AFA9-B74B6EBE36D2 - c7e96e37a40c60ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "4287DBDB-002B-4EEB-AFA9-B74B6EBE36D2 - 1d1efd50b2fa2ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TestingLaboratory.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TestingLaboratory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meltsplit/Developer/iOS_Projects/TestingLaboratory/TestingLaboratory/App/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -48,8 +48,8 @@ extension AuthRepositoryTests {
             XCTFail("Expected error AuthError.alreadyExistEmail not thrown")
         } catch {
             // then
-            XCTAssertTrue(error is AuthError)
-            XCTAssertEqual(error as? AuthError, AuthError.alreadyExistEmail)
+            XCTAssertTrue(error is AuthDataError)
+            XCTAssertEqual(error as? AuthDataError, AuthDataError.alreadyExistEmail)
         }
     }
     
@@ -91,8 +91,8 @@ extension AuthRepositoryTests {
                 XCTFail("Expected error AuthError.userNotFound not thrown")
             } catch {
                 // then
-                XCTAssertTrue(error is AuthError)
-                XCTAssertEqual(error as? AuthError, AuthError.userNotFound)
+                XCTAssertTrue(error is AuthDataError)
+                XCTAssertEqual(error as? AuthDataError, AuthDataError.userNotFound)
             }
         }
         
@@ -106,8 +106,8 @@ extension AuthRepositoryTests {
                 XCTFail("Expected error AuthError.notAuthorized not thrown")
             } catch {
                 // then
-                XCTAssertTrue(error is AuthError)
-                XCTAssertEqual(error as? AuthError, AuthError.notAuthorized)
+                XCTAssertTrue(error is AuthDataError)
+                XCTAssertEqual(error as? AuthDataError, AuthDataError.notAuthorized)
             }
         }
         
